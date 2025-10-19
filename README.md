@@ -7,19 +7,19 @@
 This project is reflecting performance of this project server.How the server is behaving while facing high level of user hit at a time.
 we will find this server throughput,when the server started to show low performance and till how many user can handle easily at a time.
 ## Summery of report
-I’ve completed performance test on frequently used API for test App. 
-Test executed for the below mentioned scenario in server 000.000.000.00. 
-200 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 234 And Total 
+- I’ve completed performance test on frequently used API for test App. 
+- Test executed for the below mentioned scenario in server 000.000.000.00. 
+- 200 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 234 And Total 
 Concurrent API requested: 1400.
-300 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 350 And Total 
+- 300 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 350 And Total 
 Concurrent API requested: 2100.
-400 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 424 And Total 
+- 400 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 424 And Total 
 Concurrent API requested: 2800.
-500 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 443 And Total 
+- 500 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 443 And Total 
 Concurrent API requested: 3500.
-While executed 500 concurrent request, found 82 request got connection timeout and error rate 
+- While executed 500 concurrent request, found 82 request got connection timeout and error rate 
 is 0.23%. 
-Summary: Server can handle almost concurrent 3200 API call with almost zero (0) error rate.
+- Summary: Server can handle almost concurrent 3200 API call with almost zero (0) error rate.
 Please find the details report from the attachment and let me know if you have any further 
 queries
 
